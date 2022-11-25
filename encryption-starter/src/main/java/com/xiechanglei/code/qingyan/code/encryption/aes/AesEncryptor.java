@@ -16,7 +16,7 @@ import java.security.SecureRandom;
  * 通常对于某个项目来说，加密解密的密钥是固定的，所与对于aes的加密与解密过程来说，Cipher这个东西是不用重复生成的，一次生成后面直接使用就可以了
  * 查阅国Cipher的代码，里面的实现是线程安全的，所以对于并发下的加密解密来说，可以直接使用同一个Cipher对象
  */
-public class AesEncryption {
+public class AesEncryptor {
 
     private static final String DEFAULT_CHARSET = "UTF-8";
 

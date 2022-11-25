@@ -11,4 +11,20 @@
 
     <artifactId>encryption-starter</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.xiechanglei.code</groupId>
+            <artifactId>type-aids-starter</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

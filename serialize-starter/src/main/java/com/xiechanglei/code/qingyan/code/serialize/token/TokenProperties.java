@@ -1,4 +1,4 @@
-package com.xiechanglei.code.qingyan.code.vo;
+package com.xiechanglei.code.qingyan.code.serialize.token;
 
 import lombok.Getter;
 import lombok.Setter;

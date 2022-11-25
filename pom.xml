@@ -11,9 +11,9 @@
     <modules>
         <module>web-starter</module>
         <module>vo-starter</module>
-        <module>token-starter</module>
         <module>encryption-starter</module>
         <module>serialize-starter</module>
+        <module>type-aids-starter</module>
     </modules>
 
     <properties>
